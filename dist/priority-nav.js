@@ -1,5 +1,5 @@
 /*
- * priority-nav - v1.0.13 | (c) 2018 @gijsroge | MIT license
+ * priority-nav - v1.0.13 | (c) 2025 @gijsroge | MIT license
  * Repository: https://github.com/gijsroge/priority-navigation.git
  * Description: Priority+ pattern navigation that hides menu items if they don't fit on screen.
  * Demo: http://gijsroge.github.io/priority-nav.js/
@@ -550,14 +550,6 @@
                 mainNavWrapper.classList.remove("is-open");
             }
         };
-    };
-
-
-    /**
-     * Remove function
-     */
-    Element.prototype.remove = function() {
-        this.parentElement.removeChild(this);
     };
 
     /*global HTMLCollection */
